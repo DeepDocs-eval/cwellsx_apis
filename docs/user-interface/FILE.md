@@ -65,11 +65,11 @@ The format of your JSON file must be as follows:
   - `label` optional, default is the `id` value
   - `tags` optional, an array of strings
   - `dependencies` required, an array of objects with required `id` and `label` fields
-- Any node or dependency may have other optional named properties, whose type is one of `string`, `number`, or `boolean`
+- Any node or dependency may have other optional named properties, whose type is `boolean`
 
 This data format is defined with TypeScript, in this source file:
 
-- [`src/main/customJson.ts`](../src/main/customJson.ts)
+- [`packages/backend/src/customJson.ts`](../../packages/backend/src/customJson.ts)
 
 ## `Core.json file created by running Core.exe`
 
